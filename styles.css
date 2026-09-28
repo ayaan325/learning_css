@@ -1,7 +1,26 @@
 * {
     color:darkslateblue
 }
-
-.important-text {
+/* this is a css comment; here is a id selector which can not be overwritten: */
+ #important-text {
     color:tomato
+}
+
+h1 {
+    color:hotpink
+}
+
+h3 {
+    color:darkslategrey
+}
+
+/* here is a grouped selector: */
+.waterloo,
+.computer-science {
+    color: green;
+    background-color:tan;
+}
+
+.admission {
+    color:blue
 }
