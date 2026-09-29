@@ -1,26 +1,23 @@
+/* here is the universal selector by * */
 * {
-    color:darkslateblue
+    color:darkslategrey
 }
-/* this is a css comment; here is a id selector which can not be overwritten: */
+/* Here is a id selector which can not be overwritten: */
  #important-text {
     color:tomato
 }
+/* type selector to choose a specific element:*/
 
-h1 {
-    color:hotpink
-}
-
-h3 {
+p {
     color:darkslategrey
 }
-
+/* here is a class selector */
+.admission {
+    color:blue
+}
 /* here is a grouped selector: */
 .waterloo,
 .computer-science {
-    color: green;
-    background-color:tan;
-}
-
-.admission {
-    color:blue
+    color: white
+    background-color:black
 }
