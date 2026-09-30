@@ -1,23 +1,38 @@
 /* here is the universal selector by * */
 * {
+    font-family: "Times New Roman", Times, serif;
     color:darkslategrey
 }
 /* Here is a id selector which can not be overwritten: */
  #important-text {
+    font-family: "Times New Roman", Times, serif;
     color:tomato
 }
 /* type selector to choose a specific element:*/
 
 p {
-    color:darkslategrey
+    font-family: "Times New Roman", Times, serif;
+    color:darkslateblue
 }
 /* here is a class selector */
 .admission {
+    font-family: "Times New Roman", Times, serif;
     color:blue
 }
 /* here is a grouped selector: */
 .waterloo,
 .computer-science {
+    font-family: "Times New Roman", Times, serif;
     color: white
     background-color:black
+}
+/* Here is chaining selectors; code looks for both information and one to color brown: */
+.information.one {
+    font-family: "Times New Roman", Times, serif;
+    color:brown
+}
+/* Here is a descendant combinator; code looks for if b is inside of a because of the space: */
+.aif .gold {
+     font-family: "Times New Roman", Times, serif;
+    color:darkgoldenrod
 }
